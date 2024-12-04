@@ -1,0 +1,633 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    margin-top: 10px;
+}
+
+.signin {
+    height: 100%;
+    background-image: url("media/signbg.png");
+    background-size: 395%;
+    background-repeat: no-repeat;
+}
+
+header {
+    .container {
+        background: linear-gradient(90deg, rgba(5, 33, 170, 1) 10%, rgba(255, 149, 0, 1) 62%);
+
+        h4 {
+            margin: 5px;
+            margin-left: 50px;
+        }
+
+        .offcanvas-lg {
+            background-color: rgb(117, 116, 116);
+            width: 90%;
+            color: rgb(204, 229, 252);
+
+            .offcanvas-header {
+                margin: 20px;
+                color: rgb(204, 229, 252)
+            }
+
+            .offcanvas-body {
+                color: rgb(204, 229, 252);
+
+                #offcanvas-main {
+                    background-color: blueviolet;
+                }
+
+                ul {
+                    li {
+                        margin-left: 20px;
+                    }
+                }
+            }
+        }
+    }
+
+
+    .container1 {
+        display: inline;
+        margin-left: 10px;
+
+        h4 {
+            margin: 5px;
+            margin-left: 50px;
+        }
+
+        .offcanvas-lg {
+            background-color: rgb(117, 116, 116);
+            width: 90%;
+            color: rgb(204, 229, 252);
+
+            .offcanvas-header {
+                margin: 20px;
+                color: rgb(204, 229, 252)
+            }
+
+            .offcanvas-body {
+                color: rgb(204, 229, 252);
+
+                #offcanvas-main {
+                    background-color: blueviolet;
+                }
+
+                ul {
+                    li {
+                        margin-left: 20px;
+                    }
+                }
+            }
+        }
+    }
+
+
+
+    .login-back {
+        font-size: 1.5rem;
+        margin: 10px;
+        margin-bottom: 100px;
+    }
+
+    .container1 {
+        h4 {
+            margin: 5px;
+            margin-left: 50px;
+
+        }
+
+        .offcanvas-lg {
+            background-color: rgb(117, 116, 116);
+            width: 90%;
+            color: rgb(204, 229, 252);
+
+            .offcanvas-header {
+                margin: 20px;
+                color: rgb(204, 229, 252)
+            }
+
+            .offcanvas-body {
+                color: rgb(204, 229, 252);
+
+                #offcanvas-main {
+                    background-color: blueviolet;
+                }
+
+                ul {
+                    li {
+                        margin-left: 20px;
+                    }
+                }
+            }
+        }
+    }
+
+    .Horizon {
+        font-size: 1.5rem;
+        padding-bottom: 15px;
+    }
+}
+
+main {
+    position: relative;
+
+    .home-info {
+        .login-div {
+            position: relative;
+            margin-bottom: 40px;
+            max-width: 600px;
+            margin: auto;
+
+            .txt {
+                position: absolute;
+                top: 352px;
+                left: 65px;
+
+                .butto {
+                    width: 100px;
+                    margin-left: 10px;
+                    padding: 3px;
+                    border-radius: 20px;
+                    border-style: double;
+                    background-color: rgb(241, 148, 200);
+                    color: rgb(47, 48, 49);
+                }
+
+
+            }
+
+            .pic {
+                border-radius: 10%;
+                height: 410px;
+                background-image: url("media/hello1.png");
+                background-size: contain;
+                background-repeat: no-repeat;
+                background-position: center;
+                overflow: visible;
+
+            }
+        }
+
+        .add-div {
+            position: relative;
+            margin: 5px;
+            margin-bottom: 50px;
+
+            .txt2 {
+                position: absolute;
+                top: 20px;
+                padding-left: 10px;
+
+                h5 {
+                    height: 35px;
+                    text-align: center;
+                    font-family: 'Courier New', Courier, monospace;
+                    font-size: 1.7rem;
+                }
+
+                p {
+                    text-align: center;
+                    font-style: oblique;
+                    font-size: 1rem;
+                }
+
+                button {
+                    border-style: hidden;
+                    padding: 8px;
+                    margin-left: 38%;
+                    background-color: rgb(241, 181, 132);
+                    border-radius: 10px;
+                }
+            }
+
+            .pic2 {
+                height: 200px;
+                background-image: url("media/add1.png");
+                background-size: cover;
+                border-style: double;
+                border-radius: 30px;
+            }
+        }
+
+        .job-div {
+            h5 {
+                margin: 10px;
+                text-decoration: none;
+                font-size: 1.4rem;
+
+                .two {
+                    font-family: 'Courier New', Courier, monospace;
+                    text-decoration: underline;
+                }
+            }
+        }
+
+        .title {
+            h5 {
+                margin: 10px;
+                font-size: 1.4rem;
+            }
+        }
+
+        .job-div2 {
+            height: 160px;
+            margin-bottom: 30px;
+
+            .content2 {
+                display: flex;
+                overflow-x: scroll;
+                flex-wrap: nowrap;
+                overflow-y: hidden;
+
+                ::-webkit-scrollbar {
+                    display: none;
+                }
+
+                -ms-overflow-style: none;
+                scrollbar-width: none;
+
+                a {
+                    text-decoration: none;
+                    margin: 10px;
+
+                    .card {
+                        margin-right: 20px;
+                        height: 160px;
+
+                        img {
+                            width: 60px;
+                            height: 60px;
+                            margin: auto;
+                            margin-top: 20px;
+
+                        }
+
+                        .card-body {
+                            text-align: center;
+                        }
+                    }
+                }
+            }
+        }
+
+        .add-div2 {
+            position: relative;
+            margin-bottom: 30px;
+
+            .txt3 {
+                position: absolute;
+                top: 20px;
+                padding-left: 10px;
+                margin: 10px;
+
+                p {
+                    margin-top: 10px;
+                    text-align: justify;
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+                    .one {
+                        font-weight: bolder;
+                    }
+                }
+
+                button {
+                    padding: 6px;
+                    border-radius: 10px;
+                    margin-top: 25px;
+                }
+            }
+
+            .pic3 {
+                margin: 5px;
+                border-radius: 10px;
+                background-image: url("media/add4.png");
+                height: 200px;
+                background-size: cover;
+            }
+        }
+
+        .carousel {
+            width: 360px;
+            height: 280px;
+            background: rgb(63, 174, 251);
+            background: radial-gradient(circle, rgba(63, 174, 251, 1) 28%, rgba(252, 164, 70, 1) 100%);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin-bottom: 40px;
+
+            .carousel-inner {
+
+                .carousel-item {
+                    text-align: center;
+
+                }
+            }
+        }
+    }
+
+    .form {
+        width: 300px;
+        margin: auto;
+        font-size: 0.8rem;
+
+        h4 {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            margin-bottom: 20px;
+        }
+
+        .form-floating {
+            margin-bottom: 8px;
+        }
+
+        .form-rem {
+            text-align: right;
+
+            a:link {
+                color: black;
+                text-decoration: none;
+            }
+
+            a:visited {
+                color: black;
+            }
+
+            a:hover {
+                color: blue;
+            }
+
+            a:active {
+                color: cadetblue;
+            }
+
+        }
+    }
+
+    .hori1 {
+        width: 100%;
+        height: 720px;
+        background-image: url("media/hr-main.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 10px;
+        position: relative;
+
+        .txt3 {
+            padding: 10px;
+            margin-left: 70px;
+            position: absolute;
+            top: 650px;
+
+            a {
+                margin: 10px;
+            }
+
+            button {
+                background-color: rgba(219, 178, 100, 0.774);
+                padding: 5px;
+                padding-left: 15px;
+                padding-right: 15px;
+                border-radius: 50px;
+            }
+        }
+    }
+
+    .opti {
+        width: 80%;
+        margin: auto;
+        position: relative;
+
+        .off {
+            width: 300px;
+            position: absolute;
+            top: 515px;
+            border: solid 1px brown;
+            margin-bottom: 10px;
+            padding: 10px;
+            border-radius: 20px;
+            text-align: center;
+            box-shadow: 3px 3px 2px 2px brown;
+            background-color: rgb(255, 198, 144);
+        }
+
+        .offs {
+            width: 300px;
+            position: absolute;
+            top: 585px;
+            border: solid 1px brown;
+            margin-bottom: 10px;
+            padding: 10px;
+            border-radius: 20px;
+            text-align: center;
+            box-shadow: 3px 3px 2px 2px brown;
+            background-color: rgb(245, 187, 132);
+
+        }
+    }
+
+    .filter {
+        display: grid;
+        grid-template-columns: 15% 85%;
+        margin: 10px;
+        text-align: center;
+        padding-bottom: 20px;
+
+        .f-icon {
+            padding-top: 20px;
+        }
+
+        .f-item {
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+            width: 100%;
+            height: 60px;
+            overflow-x: scroll;
+
+            ::-webkit-scrollbar {
+                display: none;
+            }
+
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+            padding-top: 10px;
+
+            .f-opt {
+                border: solid 1px grey;
+                padding: 10px;
+                padding-top: 13px;
+                border-radius: 50px;
+                background-color: rgb(239, 245, 250);
+            }
+        }
+    }
+
+    .found {
+        padding-left: 25px;
+    }
+
+    .offers {
+        .card {
+            box-shadow: 0.3px 0.3px 15px 0.1px rgb(117, 116, 116);
+            margin: 10px;
+            border-radius: 20px;
+
+            .row {
+                display: grid;
+                grid-template-columns: 20% 80%;
+
+
+                .col-md-4 {
+                    width: 100px;
+                    margin-top: 15px;
+
+                    img {
+                        padding: 5px;
+
+                    }
+                }
+
+                .col-md-8 {
+                    a {
+                        color: black;
+
+                        i {
+                            margin-left: 50px;
+                            font-size: larger;
+                        }
+                    }
+                }
+            }
+        }
+
+        .modal {
+            .modal-dialog {
+                .modal-content {
+                    margin-top: 250px;
+
+                }
+            }
+        }
+    }
+
+    .add-div2 {
+        position: relative;
+        margin-bottom: 20px;
+        margin: 5px;
+
+        .txt3 {
+            position: absolute;
+            top: 10px;
+            padding-left: 10px;
+            margin: 15px;
+
+            p {
+                margin-top: 10px;
+                text-align: justify;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+                .one {
+                    font-weight: bolder;
+                }
+            }
+
+            button {
+                padding: 6px;
+                border-radius: 10px;
+                margin-top: 25px;
+            }
+        }
+
+        .pic3 {
+            margin: 5px;
+            border-radius: 10px;
+            background-image: url("media/add4.png");
+            height: 200px;
+            background-size: cover;
+        }
+    }
+}
+
+@media screen and (max-width: 890px) {
+    header {
+        .container5 {
+            display: none;
+        }
+    }
+}
+
+@media screen and (min-width: 900px) and (max-width:10050px) {
+    header {
+        .container {
+            display: none;
+        }
+
+        .container5 {
+            margin-left: 15px;
+
+            .offcanvas {
+                background-color: rgb(72, 100, 100);
+                padding: 10px;
+
+                .offcanvas-header {
+                    margin: 20px;
+                    color: rgb(204, 229, 252)
+                }
+
+                .offcanvas-body {
+                    color: rgb(204, 229, 252);
+
+                    a:hover {
+                        color: aliceblue;
+                    }
+                }
+            }
+        }
+    }
+    
+    main {
+        
+        .home-info {
+            max-width: 750px;
+            margin: auto;
+            .login-div {
+
+                .txt {
+                    top: 495px;
+                    left: 155px;
+                    .butto{
+                        font-size: larger;
+                        background-color: aquamarine;
+                    }
+                    button:hover{
+                        background-color: rgb(0, 146, 97);
+                        color: aliceblue;
+                    }
+                }
+                .pic{
+                    height: 550px;
+                    aspect-ratio: 1/1;
+                }
+            }
+
+            .add-div{
+                margin-top: 55px;
+                .txt2{
+                    margin-left: 45px;
+                    text-align: justify;
+
+                    a{
+                        margin-left: 35px;
+                        font-size: larger;
+                    }
+                     
+                }
+            }
+        }
+    }
+}

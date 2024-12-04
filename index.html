@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JOB~QUEST</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <button class="btn btn-primary d-lg-none" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasResponsive" aria-controls="offcanvasResponsive">
+                <i class="bi bi-list"></i></button>
+
+            <div class="alert alert-info d-none d-lg-block">Resize your browser to show the responsive offcanvas toggle.
+            </div>
+
+            <div class="offcanvas-lg offcanvas-start" tabindex="-1" id="offcanvasResponsive"
+                aria-labelledby="offcanvasResponsiveLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasResponsiveLabel">
+                        JOB~QUEST
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                        data-bs-target="#offcanvasResponsive" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <div class="flex-shrink-0" style="width: 280px;">
+                        <ul class="list-unstyled ps-0">
+                            <li class="mb-1">
+                                <a class="btn btn-toggle align-items-center rounded collapsed" href="index.html">
+                                    Home
+                                </a>
+
+                            </li>
+                            <li class="mb-1">
+                                <a class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse"
+                                    data-bs-target="#dashboard-collapse" href="#" role="button" aria-expanded="false">
+                                    Jobs
+                                </a>
+
+                                <div class="collapse" id="dashboard-collapse">
+                                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                        <li><a href="#" class="link-dark rounded">Popular categories</a></li>
+                                        <li><a href="#" class="link-dark rounded">Jobs in demand</a></li>
+                                        <li><a href="#" class="link-dark rounded">Jobs by location</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="mb-1">
+                                <a class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse"
+                                    data-bs-target="#Companies-collapse" href="#" role="button" aria-expanded="false">
+                                    Companies
+                                </a>
+
+                                <div class="collapse" id="Companies-collapse">
+                                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                        <li><a href="#" class="link-dark rounded">Explore categories</a></li>
+                                        <li><a href="#" class="link-dark rounded">Explore collections</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="mb-1">
+                                <a class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse"
+                                    href="#" role="button" aria-expanded="false">
+                                    Feedback
+                                </a>
+                            <li class="border-top my-3"></li>
+                            <li class="mb-1">
+                                <a href="login.html"><button class="btn btn-toggle align-items-center rounded collapsed"
+                                        data-bs-toggle="collapse" data-bs-target="#login-collapse"
+                                        aria-expanded="false">
+                                        Login
+                                    </button>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container5">
+            <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample"
+                aria-controls="offcanvasExample">
+                <i class="bi bi-list"></i>
+            </button>
+
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
+                aria-labelledby="offcanvasExampleLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasExampleLabel">JOB~QUEST</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <div class="flex-shrink-0" style="width: 280px;">
+                        <ul class="list-unstyled ps-0">
+                            <li class="mb-1">
+                                <a class="btn btn-toggle align-items-center rounded collapsed" href="index.html">
+                                    Home
+                                </a>
+
+                            </li>
+                            <li class="mb-1">
+                                <a class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse"
+                                    data-bs-target="#dashboard-collapse" href="#" role="button" aria-expanded="false">
+                                    Jobs
+                                </a>
+
+                                <div class="collapse" id="dashboard-collapse">
+                                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                        <li><a href="#" class="link-dark rounded">Popular categories</a></li>
+                                        <li><a href="#" class="link-dark rounded">Jobs in demand</a></li>
+                                        <li><a href="#" class="link-dark rounded">Jobs by location</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="mb-1">
+                                <a class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse"
+                                    data-bs-target="#Companies-collapse" href="#" role="button" aria-expanded="false">
+                                    Companies
+                                </a>
+
+                                <div class="collapse" id="Companies-collapse">
+                                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                        <li><a href="#" class="link-dark rounded">Explore categories</a></li>
+                                        <li><a href="#" class="link-dark rounded">Explore collections</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="mb-1">
+                                <a class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse"
+                                    href="#" role="button" aria-expanded="false">
+                                    Feedback
+                                </a>
+                            <li class="border-top my-3"></li>
+                            <li class="mb-1">
+                                <a href="login.html"><button class="btn btn-toggle align-items-center rounded collapsed"
+                                        data-bs-toggle="collapse" data-bs-target="#login-collapse"
+                                        aria-expanded="false">
+                                        Login
+                                    </button>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="home-info">
+            <div class="login-div">
+                <div class="txt">
+                    <a href="login.html"><button class="butto"> Sign in </button></a>
+                    <a href="signup.html"><button class="butto"> Sign up </button></a>
+                </div>
+                <div class="pic">
+                    <!-- <img src="media/login.png" alt=""> -->
+                </div>
+            </div>
+            <div class="add-div">
+                <div class="txt2">
+                    <h5>HORIZON_TEACH</h5>
+                    <p>Boost Your Confidence!
+                        Struggling with interviews or job tests? We've got you covered.<br>
+                        Start Today and feel job-ready tomorrow!
+                    </p>
+                    <a href="horizon_register.html"><button>Register </button></a>
+                </div>
+                <div class="pic2">
+                </div>
+            </div>
+            <div class="job-div">
+                <h5><span class="two">Trending Jobs</span>🔥</h5>
+
+            </div>
+            <div id="carouselExampleCaptions" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <h5 class="card-title">Front End Full Stack Developer</h5>
+                        <p class="card-text">Create and design websites, working on both the front-end and
+                            back-end.<br>
+                            <span>Location: Bengaluru</span>
+                        </p>
+                        <a href="joboffer.html" class="btn btn-primary">Apply</a>
+                        <!-- <div class="carousel-caption d-none d-md-block">
+                    </div> -->
+                    </div>
+                    <div class="carousel-item">
+                        <h5 class="card-title">Java Developer</h5>
+                        <p class="card-text">Develop and maintain applications and systems using Java.<br>
+                            <span>Location: Pune</span>
+                        </p>
+                        <a href="joboffer2.html" class="btn btn-primary">Apply</a>
+
+                    </div>
+                    <div class="carousel-item">
+                        <h5 class="card-title">Python Developer</h5>
+                        <p class="card-text">Build and maintain applications and systems using Python.<br>
+                            <span>Location: Mumbai</span>
+                        </p>
+                        <a href="joboffer3.html" class="btn btn-primary">Apply</a>
+
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+            <div class="title">
+                <h5>Trending on Job~Quest Today</h5>
+            </div>
+            <div class="job-div2">
+                <div class="content2">
+                    <a href="joboffer.html">
+                        <div class="card" style="width: 18rem;">
+                            <img src="media/work.png" class="card-img-top" alt="">
+                            <div class="card-body">
+                                <h5 class="card-text">Remote </h5>
+                                <p class="card-text">24.9K+ jobs</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="joboffer.html">
+                        <div class="card" style="width: 18rem;">
+                            <img src="media/mnc.png" class="card-img-top" alt="">
+                            <div class="card-body">
+                                <h5 class="card-text">MNC </h5>
+                                <p class="card-text">38.7K+ jobs</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="joboffer.html">
+                        <div class="card" style="width: 18rem;">
+                            <img src="media/startup.png" class="card-img-top" alt="">
+                            <div class="card-body">
+                                <h5 class="card-text">Startup </h5>
+                                <p class="card-text">24.9K+ jobs</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="joboffer.html">
+                        <div class="card" style="width: 18rem;">
+                            <img src="media/software.png" class="card-img-top" alt="">
+                            <div class="card-body">
+                                <h5 class="card-text">Engineering </h5>
+                                <p class="card-text">24.9K+ jobs</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="joboffer.html">
+                        <div class="card" style="width: 18rem;">
+                            <img src="media/fresher.png" class="card-img-top" alt="">
+                            <div class="card-body">
+                                <h5 class="card-text">Fresher </h5>
+                                <p class="card-text">24.9K+ jobs</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="joboffer.html">
+                        <div class="card" style="width: 18rem;">
+                            <img src="media/marketing.png" class="card-img-top" alt="">
+                            <div class="card-body">
+                                <h5 class="card-text">Marketing</h5>
+                                <p class="card-text">24.9K+ jobs</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="joboffer.html">
+                        <div class="card" style="width: 18rem;">
+                            <img src="media/finance.png" class="card-img-top" alt="">
+                            <div class="card-body">
+                                <h5 class="card-text">Bank </h5>
+                                <p class="card-text">24.9K+ jobs</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="joboffer.html">
+                        <div class="card" style="width: 18rem;">
+                            <img src="media/hr.png" class="card-img-top" alt="">
+                            <div class="card-body">
+                                <h5 class="card-text">HR </h5>
+                                <p class="card-text">24.9K+ jobs</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="add-div2">
+                <div class="txt3">
+                    <p>Make the most out of us by creating <br>your
+                        <span class="one"> job profile for free!</span>
+                    </p>
+                    <button>Register </button>
+                </div>
+                <div class="pic3">
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container1">
+            <footer class="py-0 my-0">
+                <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                    <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About us</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Help Center</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Terms & Conditions</a>
+                    </li>
+                    <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Fraud Alerts</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Privacy Policy</a></li>
+                </ul>
+                <p class="text-center text-body-secondary">© 2024 Company, Inc</p>
+            </footer>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
