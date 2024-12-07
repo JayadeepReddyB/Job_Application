@@ -82,39 +82,6 @@ header {
         margin-bottom: 100px;
     }
 
-    .container1 {
-        h4 {
-            margin: 5px;
-            margin-left: 50px;
-
-        }
-
-        .offcanvas-lg {
-            background-color: rgb(117, 116, 116);
-            width: 90%;
-            color: rgb(204, 229, 252);
-
-            .offcanvas-header {
-                margin: 20px;
-                color: rgb(204, 229, 252)
-            }
-
-            .offcanvas-body {
-                color: rgb(204, 229, 252);
-
-                #offcanvas-main {
-                    background-color: blueviolet;
-                }
-
-                ul {
-                    li {
-                        margin-left: 20px;
-                    }
-                }
-            }
-        }
-    }
-
     .Horizon {
         font-size: 1.5rem;
         padding-bottom: 15px;
@@ -650,6 +617,11 @@ main {
 
                 .col-md-8 {
                     margin-left: 100px;
+                    p{
+                        a{
+                            padding-left: 350px;
+                        }
+                    }
                 }
             }
         }
