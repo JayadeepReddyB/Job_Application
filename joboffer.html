@@ -13,66 +13,44 @@
 
 <body>
     <header>
-        <div class="container1">
-            <button class="btn btn-primary d-lg-none" type="button" data-bs-toggle="offcanvas"
-                data-bs-target="#offcanvasResponsive" aria-controls="offcanvasResponsive">
-                <i class="bi bi-list"></i></button>
-            <div class="alert alert-info d-none d-lg-block">Resize your browser to show the responsive offcanvas toggle.
-            </div>
-
-            <div class="offcanvas-lg offcanvas-start" tabindex="-1" id="offcanvasResponsive"
-                aria-labelledby="offcanvasResponsiveLabel">
-                <div class="offcanvas-header">
-                    <h5 class="offcanvas-title" id="offcanvasResponsiveLabel">
-                        JOB~QUEST
-                    </h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
-                        data-bs-target="#offcanvasResponsive" aria-label="Close"></button>
-                </div>
-                <div class="offcanvas-body">
-                    <div class="flex-shrink-0" style="width: 280px;">
-                        <ul class="list-unstyled ps-0">
-                            <li class="mb-1">
-                                <a class="btn btn-toggle align-items-center rounded collapsed" href="index.html">
-                                    Home
-                                </a>
-
+        <div class="container">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">JOB~QUEST</a>
+                    <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link " aria-current="page" href="index.html">Home</a>
                             </li>
-                            <li class="mb-1">
-                                <a class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse"
-                                    data-bs-target="#dashboard-collapse" href="#" role="button" aria-expanded="false">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
                                     Jobs
                                 </a>
-
-                                <div class="collapse" id="dashboard-collapse">
-                                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                                        <li><a href="#" class="link-dark rounded">Popular categories</a></li>
-                                        <li><a href="#" class="link-dark rounded">Jobs in demand</a></li>
-                                        <li><a href="#" class="link-dark rounded">Jobs by location</a></li>
-                                    </ul>
-                                </div>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="joboffer.html">Popular categories</a></li>
+                                    <li><a class="dropdown-item" href="#">Jobs in demand</a></li>
+                                    <li><a class="dropdown-item" href="#">Jobs by location</a></li>
+                                </ul>
                             </li>
-                            <li class="mb-1">
-                                <a class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse"
-                                    data-bs-target="#Companies-collapse" href="#" role="button" aria-expanded="false">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
                                     Companies
                                 </a>
-
-                                <div class="collapse" id="Companies-collapse">
-                                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                                        <li><a href="#" class="link-dark rounded">Explore categories</a></li>
-                                        <li><a href="#" class="link-dark rounded">Explore collections</a></li>
-                                    </ul>
-                                </div>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Explore categories</a></li>
+                                    <li><a class="dropdown-item" href="#">Explore collections</a></li>
+                                </ul>
                             </li>
-                            <li class="mb-1">
-                                <a class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse"
-                                    href="#" role="button" aria-expanded="false">
-                                    Feedback
-                                </a>
                             <li class="border-top my-3"></li>
                             <li class="mb-1">
-                                <a href="login.html"><button class="btn btn-toggle align-items-center rounded collapsed"
+                                <a href="login.html"><button class="btn btn-toggle align-items-left rounded collapsed"
                                         data-bs-toggle="collapse" data-bs-target="#login-collapse"
                                         aria-expanded="false">
                                         Login
@@ -80,9 +58,14 @@
                                 </a>
                             </li>
                         </ul>
+
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
                     </div>
                 </div>
-            </div>
+            </nav>
         </div>
     </header>
     <main>
@@ -108,13 +91,19 @@
                 <div class="f-opt">
                     <p>Workmode</p>
                 </div>
+                <div class="f-opt">
+                    <p>Experience</p>
+                </div>
+                <div class="f-opt">
+                    <p>Salary</p>
+                </div>
             </div>
         </div>
         <div class="found">
             <p>### jobs found</p>
         </div>
         <div class="offers">
-            <div class="card mb-3" style="max-width: 540px;">
+            <div class="card mb-3">
                 <div class="row g-0">
                     <div class="col-md-4">
                         <img src="media/logo1.png" class="img-fluid rounded-start" alt="...">
@@ -145,7 +134,7 @@
                 <div class="pic3">
                 </div>
             </div>
-            <div class="card mb-3" style="max-width: 540px;">
+            <div class="card mb-4" >
                 <div class="row g-0">
                     <div class="col-md-4">
                         <img src="media/logo2.jpg" class="img-fluid rounded-start" alt="...">
@@ -166,7 +155,7 @@
                     </div>
                 </div>
             </div>
-            <div class="card mb-3" style="max-width: 540px;">
+            <div class="card mb-4" >
                 <div class="row g-0">
                     <div class="col-md-4">
                         <img src="media/logo3.jpg" class="img-fluid rounded-start" alt="...">
@@ -187,7 +176,7 @@
                     </div>
                 </div>
             </div>
-            <div class="card mb-3" style="max-width: 540px;">
+            <div class="card mb-4" >
                 <div class="row g-0">
                     <div class="col-md-4">
                         <img src="media/logo4.jpg" class="img-fluid rounded-start" alt="...">
@@ -208,7 +197,7 @@
                     </div>
                 </div>
             </div>
-            <div class="card mb-3" style="max-width: 540px;">
+            <div class="card mb-4">
                 <div class="row g-0">
                     <div class="col-md-4">
                         <img src="media/logo5.jpg" class="img-fluid rounded-start" alt="...">
@@ -229,7 +218,7 @@
                     </div>
                 </div>
             </div>
-            <div class="card mb-3" style="max-width: 540px;">
+            <div class="card mb-4" >
                 <div class="row g-0">
                     <div class="col-md-4">
                         <img src="media/logo1.png" class="img-fluid rounded-start" alt="...">
@@ -250,7 +239,7 @@
                     </div>
                 </div>
             </div>
-            <div class="card mb-3" style="max-width: 540px;">
+            <div class="card mb-4" >
                 <div class="row g-0">
                     <div class="col-md-4">
                         <img src="media/logo2.jpg" class="img-fluid rounded-start" alt="...">
@@ -271,7 +260,7 @@
                     </div>
                 </div>
             </div>
-            <div class="card mb-3" style="max-width: 540px;">
+            <div class="card mb-4" >
                 <div class="row g-0">
                     <div class="col-md-4">
                         <img src="media/logo3.jpg" class="img-fluid rounded-start" alt="...">
@@ -292,7 +281,7 @@
                     </div>
                 </div>
             </div>
-            <div class="card mb-3" style="max-width: 540px;">
+            <div class="card mb-4" >
                 <div class="row g-0">
                     <div class="col-md-4">
                         <img src="media/logo4.jpg" class="img-fluid rounded-start" alt="...">
